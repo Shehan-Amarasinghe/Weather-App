@@ -10,3 +10,51 @@
 html {
   font-size: 62.5%;
 }
+
+/* Form - CSS */
+
+.form-btn a{
+  text-decoration: none;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 30px 20px;
+  width: 400px;
+  height: 50vh;
+  margin: 12em auto;
+
+}
+
+form input{
+  width: 200px;
+  outline: none;
+  border-radius:10px;
+  border: 2px solid navy;
+  color: gray;
+  padding: 6px 10px;
+}
+
+form button{
+  width: 100px;
+  padding: 5px 3px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(29, 29, 36);
+  color: white;
+  border-radius: 20px;
+}
+
+form button:hover{
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.p-tag{
+  margin-bottom: 3em;
+  font-size: 2em;
+}

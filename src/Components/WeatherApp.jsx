@@ -4,6 +4,7 @@ import rainy from '../assets/images/rainy.png'
 import snowy from '../assets/images/snowy.png'
 import loadingGif from '../assets/images/loading.gif'
 import { useState, useEffect } from 'react'
+import Login from './Login'
 
 const WeatherApp = () => {
   const [data, setData] = useState({})
@@ -14,7 +15,7 @@ const WeatherApp = () => {
   useEffect(() => {
     const fetchDefaultWeather = async () => {
       setLoading(true)
-      const defaultLocation = 'Tbilisi'
+      const defaultLocation = 'Colombo'
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${defaultLocation}&units=Metric&appid=${api_key}`
       const res = await fetch(url)
       const defaultData = await res.json()

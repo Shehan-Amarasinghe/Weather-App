@@ -1,10 +1,10 @@
-import WeatherApp from './Components/WeatherApp'
+import Login from './Components/Login'
 import './Components/WeatherApp.css'
 
 const App = () => {
   return (
     <div>
-      <WeatherApp />
+        <Login/> 
     </div>
   )
 }
