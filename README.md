@@ -3,6 +3,11 @@
 
  Responsive and eye catching weather application, I've used OpenweatherApi for this amazing project. And I've added login form for this web application.
 
+To Login for this web application use below username and password,
+
+USERNAME - Admin
+Password - 123
+
 
 ## Technologies Used
 
