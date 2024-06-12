@@ -27,7 +27,6 @@ html {
   width: 400px;
   height: 50vh;
   margin: 12em auto;
-
 }
 
 form input{
@@ -58,4 +57,14 @@ form button:hover{
 .p-tag{
   margin-bottom: 3em;
   font-size: 2em;
+}
+
+@media (max-width:400px) {
+  .form{
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 300px;
+    height: 20vh;
+    margin: 35em auto;
+  }
 }
