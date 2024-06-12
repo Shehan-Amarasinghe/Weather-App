@@ -48,6 +48,7 @@ form button{
   background-color: rgb(29, 29, 36);
   color: white;
   border-radius: 20px;
+  margin-top: 1em;
 }
 
 form button:hover{
