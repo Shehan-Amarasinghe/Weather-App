@@ -27,7 +27,7 @@ To get started, just clone the repository and use these commands
 ```
 
 
-## Contributing
+## Contribution
 
 Contributions are always welcome!
 
