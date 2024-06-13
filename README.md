@@ -1,7 +1,7 @@
 
 # weather-app
 
- Responsive and eye catching weather application, I've used OpenweatherApi for this amazing project. And I've added login form for this web application.
+ Responsive and eye catching weather application, I've used OpenweatherApi for this amazing project. And this will contain login form.
 
 To Login for this web application use below username and password,
 
