@@ -36,12 +36,14 @@ function Login() {
             <WeatherApp/>
         </div>
         ) : (
+        <div className='form-container'>
         <form onSubmit={handleSubmit} className='form'>
                 {error && <p className='p-tag' style={{ color: 'red' }}>{error}</p>}
             <input type="text" placeholder='Enter Username' onChange={handleUser} value={user}/>  <br /> <br />
             <input type="password" placeholder='Enter Password' onChange={handlePassword} value={pass} />  <br /> <br />
             <button type='submit' className='form-btn'> Login</button>
         </form>
+        </div>
         )}
     </div>
   )
