@@ -4,7 +4,6 @@ import rainy from '../assets/images/rainy.png'
 import snowy from '../assets/images/snowy.png'
 import loadingGif from '../assets/images/loading.gif'
 import { useState, useEffect } from 'react'
-import Login from './Login'
 
 const WeatherApp = () => {
   const [data, setData] = useState({})
