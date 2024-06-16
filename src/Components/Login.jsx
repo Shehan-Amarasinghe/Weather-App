@@ -10,7 +10,7 @@ function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if ( user === 'Admin' && pass === '123'){
+        if ( user === 'admin' && pass === '123'){
             setIsLoggedIn(true);
             setError('');
         }else {
