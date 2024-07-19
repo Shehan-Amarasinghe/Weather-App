@@ -5,7 +5,7 @@
 
 To Login for this web application use below username and password,
 
-USERNAME - Admin
+USERNAME - admin
 PASSWORD - 123
 
 
